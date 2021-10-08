@@ -150,6 +150,8 @@ header nav img{
 }
 .card__img{
     margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 5px #EFF1F5;
+    border-radius: var(--radius);
 }
 .card__img img{
     border-radius: var(--radius);
@@ -163,8 +165,16 @@ header nav img{
 .card__img img:hover{
     filter:grayscale(0)
 }
+.card__img--p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--h4);
+    padding: 30px;
+}
 #projects .more{
     display: flex;
+    display: none;
     align-items: center;
     cursor: pointer;
     height: 50px;
